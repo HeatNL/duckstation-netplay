@@ -16,6 +16,7 @@ if(BUILD_NOGUI_FRONTEND)
 endif()
 
 if(BUILD_QT_FRONTEND)
+  add_subdirectory(netplay)
   add_subdirectory(duckstation-qt)
 endif()
 
