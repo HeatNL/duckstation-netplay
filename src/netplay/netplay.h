@@ -5,6 +5,7 @@
 
 #include <ggponet.h>
 #include <stdint.h>
+#include <string.h>
 #include <string>
 
 namespace Netplay {
