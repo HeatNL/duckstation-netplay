@@ -261,7 +261,7 @@ typedef struct
    * should make the current game state match the state contained in the
    * buffer.
    */
-  bool(__cdecl* load_game_state)(void* context, unsigned char* buffer, int len, int framesToRollback, int frameToLoad);
+  bool(__cdecl* load_game_state)(void* context, unsigned char* buffer, int len, int rb_frames, int frame_to_load);
 
   /*
    * log_game_state - Used in diagnostic testing.  The client should use
